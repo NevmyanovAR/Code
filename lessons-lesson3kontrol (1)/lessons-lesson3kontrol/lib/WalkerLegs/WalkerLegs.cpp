@@ -28,9 +28,7 @@ void WalkerLegs::begin(int pin)
     servoLegs[i].write(servoCenterConst[i]);      //выставляем начальное положение сервопривода
     delay(500);
   }
-setDeviation();
-setDelays();
-}
+
 
 void WalkerLegs::setDeviation(int dAHor , int dAVer ){
 
